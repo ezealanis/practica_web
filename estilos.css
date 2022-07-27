@@ -6,7 +6,8 @@
 }
 
 body{
-    height: 100vh;
+    height: 2000px;
+    background-image: linear-gradient(to bottom, rgb(255, 255, 255), rgb(242, 220, 255));
 }
 
 /*HEADER*/
@@ -160,7 +161,7 @@ header{
 }
 
 .card button:hover{
-    border: 3px blueviolet solid;
+    border: 1.5px blueviolet solid;
 }
 
 .card button:active{
@@ -178,6 +179,9 @@ footer{
     justify-content: center;
     border-top: 1px black  solid;
     border-bottom: 1px black  solid;
+    position: relative;
+    background-color: white;
+    bottom: -100%;
 }
 
 footer p{
@@ -188,6 +192,7 @@ footer p{
 
 footer p span{
     font-weight: bold;
+    color: blueviolet;
 }
 
 /*REPONSIVE*/
