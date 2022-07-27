@@ -5,6 +5,10 @@
     font-family: 'Roboto';
 }
 
+body{
+    height: 100%;
+}
+
 /*HEADER*/
 
 header{
@@ -70,7 +74,7 @@ header{
 }
 
 .nav-item:hover{
-    border-top: 3px blueviolet solid;
+    border-top: 3px #8a2be2 solid;
     color: blueviolet;
 }
 
